@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <section>
+        <h1>Задание №1 - Таблица</h1>
+        <p>Напишите функцию которая выводит таблицу размером n×n, заполненную числами от 1 до n*n по спирали, выходящей из левого верхнего угла и закрученной по часовой стрелке.</p>
+        <form id="formRandom">
+            <span>Введите размер матрицы N:</span><br/>
+            <label for="num">N</label><input type="text" name="num" id="num" value="2"><br/>
+            <button id="task1" type="button" onclick="table();">Заполнить таблицу</button>
+        </form>
+    </section>
+
+    <section>
+        <h1>Задание №2 - Сортировка</h1>
+        <p>Есть упорядоченный массив чисел [11, 22, 48, 54] и массив каких-то чисел той же длины. Нужно написать метод, который сравнит эти два массива и вернет true, если они состоят из тех же элементов (порядок может отличаться).</p>
+        <button id="task2" type="button" onclick="sortTest();">Выполнить</button>
+    </section>
+
+    <section>
+        <h1>Задание №3 - Pub Sub</h1>
+        <button id="task3" type="button" onclick="pubsub();">Выполнить</button>
+        <span id="result31"></span>
+        <span id="result32"></span>
+    </section>
+</body>
+</html>
